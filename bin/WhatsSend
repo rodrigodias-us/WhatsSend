@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "whats_send"
+
+whats_send = WhatsSend.new
+
+whats_send.hi()
