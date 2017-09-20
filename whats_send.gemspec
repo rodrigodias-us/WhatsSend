@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/hola'
   s.executables << 'WhatsSend'
   s.license     = 'MIT'
+
+  s.add_dependency "firebase"
 end

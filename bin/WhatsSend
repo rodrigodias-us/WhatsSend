@@ -2,6 +2,5 @@
 
 require "whats_send"
 
-whats_send = WhatsSend.new
-
-whats_send.hi()
+whats_send = WhatsSend.new("http://localhost:3000", "https://ranguinho-320bb.firebaseio.com/")
+whats_send.loop_init
